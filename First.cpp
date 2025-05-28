@@ -7,17 +7,29 @@ int main() {
    int slow=0;
    int fast=0;
 
-   while (fast<v.size() && fast+1<v.size())
-   {
+   for(int i=0;i<v.size();i++){
+      int currentindex=i;
+      for (int j = i; j < v.size(); j++)
+      {
 
-    slow++;
-    fast+2;
+        if(v[currentindex]<v[j])
+        {
+            currentindex=j;
+        }
+        /* code */
 
+      }
+      int temp = v[i];
+        v[i] = v[currentindex];
+        v[currentindex] = temp;
+      
+       }
+  for (int i = 0; i < v.size(); i++)
+  {
+    cout << v[i] << endl;
     /* code */
-   }
-   cout<< slow<<endl;
-
+  }
   
-    cout << "Hello, World!" << endl;
+ //   cout << "Hello, World!" << endl;
     return 0;
 }
