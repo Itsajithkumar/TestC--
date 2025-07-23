@@ -174,7 +174,7 @@ int main() {
   
     int n=size(v)/sizeof(v[0]);
     quiksort(v, 0, n-1);
-    printvalue(v, n);
+   // printvalue(v, n);
     // Uncomment the following lines to test other sorting algorithms
     // Bubblesort(v, n);
     // Insertionsort(v, n);
