@@ -176,7 +176,7 @@ int main() {
     quiksort(v, 0, n-1);
     printvalue(v, n);
     // Uncomment the following lines to test other sorting algorithms
-    // Bubblesort(v, n);
+     Bubblesort(v, n);
     // Insertionsort(v, n);
     // selectionsort(v, n);
     // mergesort(v, 0, n-1);
