@@ -177,7 +177,7 @@ int main() {
     printvalue(v, n);
     // Uncomment the following lines to test other sorting algorithms
      Bubblesort(v, n);
-    // Insertionsort(v, n);
+     Insertionsort(v, n);
     selectionsort(v, n);
      mergesort(v, 0, n-1);
     // cout << "Sorted array using Merge Sort:" << endl;
